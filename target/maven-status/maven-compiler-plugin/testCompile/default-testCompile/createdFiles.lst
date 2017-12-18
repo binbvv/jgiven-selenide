@@ -1,6 +1,0 @@
-ui\steps\ThenResultsShouldBe.class
-ui\steps\WhenSearchIsPerformed.class
-ui\steps\GivenGooglePage.class
-ui\tests\GoogleBddTest.class
-ui\pages\SearchResultsPage.class
-ui\pages\GooglePage.class
