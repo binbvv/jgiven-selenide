@@ -1,0 +1,86 @@
+{
+  "className": "ui.GoogleTestBdd",
+  "name": "Google Test Bdd",
+  "scenarios": [
+    {
+      "className": "ui.GoogleTestBdd",
+      "testMethodName": "shouldFindSelenideTest",
+      "description": "Should find selenide test",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "user opens google page",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "user opens google page"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 6301955365
+            },
+            {
+              "name": "user searches for",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "user searches for"
+                },
+                {
+                  "value": "selenide",
+                  "argumentInfo": {
+                    "argumentName": "searchText",
+                    "formattedValue": "selenide"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 704531088
+            },
+            {
+              "name": "user sees number of links is",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "user sees number of links is"
+                },
+                {
+                  "value": "10",
+                  "argumentInfo": {
+                    "argumentName": "linksCount",
+                    "formattedValue": "10"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 34332498
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "success": true,
+          "durationInNanos": 7064324766
+        }
+      ],
+      "durationInNanos": 7064324766,
+      "executionStatus": "SUCCESS"
+    }
+  ],
+  "tagMap": {}
+}
