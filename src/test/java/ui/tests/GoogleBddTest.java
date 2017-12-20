@@ -1,7 +1,7 @@
 package ui.tests;
 
-import com.tngtech.jgiven.junit.ScenarioTest;
-import org.junit.Test;
+import com.tngtech.jgiven.testng.ScenarioTest;
+import org.testng.annotations.Test;
 import ui.steps.GivenGooglePage;
 import ui.steps.ThenResultsShouldBe;
 import ui.steps.WhenSearchIsPerformed;
