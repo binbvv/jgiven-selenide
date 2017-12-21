@@ -1,4 +1,4 @@
-package ui.tags;
+package common.tags;
 
 import com.tngtech.jgiven.annotation.IsTag;
 

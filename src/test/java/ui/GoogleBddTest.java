@@ -1,28 +1,21 @@
-package ui.tests;
+package ui;
 
 import com.tngtech.jgiven.testng.ScenarioTest;
+import common.tags.Story;
+import common.tags.TagsWithCustomStyle;
 import org.testng.annotations.Test;
-import ui.steps.GivenGooglePage;
-import ui.steps.ThenResultsShouldBe;
-import ui.steps.WhenSearchIsPerformed;
-import ui.tags.Story;
-import ui.tags.TagsWithCustomStyle;
+import ui.steps.googlesearch.GivenGooglePage;
+import ui.steps.googlesearch.ThenResultsShouldBe;
+import ui.steps.googlesearch.WhenSearchIsPerformed;
 
 public class GoogleBddTest extends ScenarioTest<GivenGooglePage, WhenSearchIsPerformed, ThenResultsShouldBe> {
 
     @Test
     @Story("TC-1122-1")
+    @TagsWithCustomStyle
     public void shouldFindSelenide() {
         given().userOpensGooglePage();
         when().userSearchesFor("selenide");
         then().userSeesNumberOfLinksIsLessOrEqualTo(10);
-    }
-
-    @Test
-    @TagsWithCustomStyle
-    public void shouldFindSelenium() {
-        given().userOpensGooglePage();
-        when().userSearchesFor("selenium web driver");
-        then().userSeesNumberOfLinksIsLessOrEqualTo(100);
     }
 }

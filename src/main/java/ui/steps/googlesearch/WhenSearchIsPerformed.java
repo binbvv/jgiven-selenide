@@ -1,9 +1,9 @@
-package ui.steps;
+package ui.steps.googlesearch;
 
 import com.tngtech.jgiven.Stage;
 import com.tngtech.jgiven.annotation.ScenarioState;
-import ui.pages.GooglePage;
-import ui.pages.SearchResultsPage;
+import ui.pages.google.GooglePage;
+import ui.pages.google.SearchResultsPage;
 
 public class WhenSearchIsPerformed extends Stage<WhenSearchIsPerformed> {
     @ScenarioState

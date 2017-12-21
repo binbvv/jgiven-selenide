@@ -1,8 +1,8 @@
-package ui.steps;
+package ui.steps.googlesearch;
 
 import com.tngtech.jgiven.Stage;
 import com.tngtech.jgiven.annotation.ScenarioState;
-import ui.pages.SearchResultsPage;
+import ui.pages.google.SearchResultsPage;
 
 import static com.codeborne.selenide.CollectionCondition.sizeLessThanOrEqual;
 

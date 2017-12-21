@@ -1,4 +1,4 @@
-package ui.pages;
+package ui.pages.google;
 
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;

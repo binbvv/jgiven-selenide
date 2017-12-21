@@ -1,4 +1,4 @@
-package ui.pages;
+package ui.pages.google;
 
 import org.openqa.selenium.By;
 

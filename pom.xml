@@ -42,7 +42,6 @@
             <groupId>com.codeborne</groupId>
             <artifactId>selenide</artifactId>
             <version>4.8</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.tngtech.jgiven</groupId>
